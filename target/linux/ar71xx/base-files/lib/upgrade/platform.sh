@@ -217,6 +217,7 @@ platform_check_image() {
 	archer-c60-v2|\
 	archer-c7-v4|\
 	archer-c7-v5|\
+	belair20e11|\
 	bullet-m|\
 	bullet-m-xw|\
 	c-55|\

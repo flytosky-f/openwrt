@@ -559,6 +559,9 @@ get_status_led() {
 	wlr8100)
 		status_led="sitecom:amber:status"
 		;;
+	belair20e11)
+		status_led="belair:blue:power"
+		;;
 	esac
 }
 

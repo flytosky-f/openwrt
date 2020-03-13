@@ -171,6 +171,11 @@ arduino-yun)
 	ucidef_set_led_wlan "wlan" "WLAN" "arduino:blue:wlan" "phy0tpt"
 	ucidef_set_led_usbport "usb" "USB" "arduino:white:usb" "1-1-port1"
 	;;
+belair20e11)
+	ucidef_set_led_wlan "wlan2g" "WLAN2G" "belair:blue:wlan2g" "phy0tpt"
+	ucidef_set_led_wlan "wlan5g" "WLAN5G" "belair:blue:wlan5g" "phy1tpt"
+	ucidef_set_led_switch "internet" "INTERNET" "belair:blue:internet" "switch0" "0x20"
+	;;
 bhr-4grv2)
 	ucidef_set_led_default "power" "POWER" "buffalo:green:power" "1"
 	ucidef_set_led_default "diag" "DIAG" "buffalo:red:diag" "0"

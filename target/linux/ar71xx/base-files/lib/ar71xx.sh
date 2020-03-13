@@ -685,6 +685,9 @@ ar71xx_board_detect() {
 	*"AW-NR580")
 		name="aw-nr580"
 		;;
+	*"BelAir20E-11")
+		name="belair20e11"
+		;;
 	*"BHR-4GRV2")
 		name="bhr-4grv2"
 		;;

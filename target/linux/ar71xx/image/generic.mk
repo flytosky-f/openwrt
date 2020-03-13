@@ -147,6 +147,17 @@ define Device/arduino-yun
 endef
 TARGET_DEVICES += arduino-yun
 
+define Device/belair20e-11
+  DEVICE_TITLE := BelAir Networks BelAir20E-11 board
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-storage
+  BOARDNAME := BELAIR20E-11
+  IMAGE_SIZE := 32448k
+  KERNEL_SIZE := 1600k
+  ROOTFS_SIZE := 30848k
+  MTDPARTS := flash:192k(u-boot)ro,64k(u-boot-env)ro,64k(art)ro,1600k(kernel),30848k(rootfs),32448k@0x50000(firmware)
+endef
+TARGET_DEVICES += belair20e-11
+
 define Device/bsb
   DEVICE_TITLE := Smart Electronics Black Swift board
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2
